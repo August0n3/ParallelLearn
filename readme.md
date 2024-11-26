@@ -7,10 +7,6 @@ Este repositório contém materiais, códigos e experimentos relacionados ao est
 Este é um repositório de estudo pessoal focado em técnicas de computação paralela. Você encontrará apenas códigos feitos na pasta `src`. O objetivo deste repositório é explorar e experimentar com **MPI**, **OpenMP** e **Pthreads**, proporcionando uma base sólida para o desenvolvimento de aplicações paralelas. Sinta-se à vontade para explorar, modificar e utilizar os códigos conforme necessário para seus próprios estudos e projetos.
 
 
-## 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
 ## 🔧 Pré-requisitos
 
 Antes de começar, certifique-se de ter o ambiente configurado:
