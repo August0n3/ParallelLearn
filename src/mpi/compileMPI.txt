@@ -1,0 +1,13 @@
+mpicc -g -Wall -o mpi_hello_world mpi_hello_world.c
+
+mpicc = compilador de MPI
+-g = debug
+-Wall = mostrar todos los warnings
+-o = output
+mpi_hello_world = nome do executável
+mpi_hello_world.c = nome do arquivo fonte
+
+mpiexec -n <numero de processos> ./mpi_hello_world
+
+mpiexec = executar o programa MPI
+-n = numero de processos
