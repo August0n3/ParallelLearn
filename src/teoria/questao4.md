@@ -1,21 +1,26 @@
-div = 2
-salt = 1
-sum = my_val
-if (rank//salt == 0){
+# Questão 4
 
-    if (rank // div == 0){
+```
+p = quantidade de nucleos;
+
+salto = 1;
+sum = mysum
+
+while (salto < p){
+    
+    if(my_rank % salto){
+    
+    parc = my_rank xor salto;
         
-        if( rank + salt < p){
-            parceiro  = rank+salto
-            val = recebe do parceiro
-            sum+= val
+        if(parc < p){
+            num = recebe o valor do parceiro;
+            mysum += num
+        }else{
+            envia o valor para o parceiro
         }
-        
-    }else{
-        parceiro = rank - salto
-        enviar parceiro
     }
+
+    salto<<1
 }
 
-salt*=2
-div*=2
+```
